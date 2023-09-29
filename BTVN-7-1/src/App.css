@@ -1,0 +1,94 @@
+.container {
+    background-color: #be4a4b;
+    border: 10px solid #b39883;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .main input {
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  
+  .todolist-input {
+    outline: 20px solid #e1c1ac;
+    border: 2px solid black;
+    padding: 10px; /* Đã chỉnh lại padding */
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #b39883;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #9c7c68;
+  }
+  
+  .tab-task {
+    display: flex;
+    width: 100%;
+    flex-direction: column; /* Đã thêm dòng này để tránh lỗi flex */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px 0; /* Đã thêm dòng này để tạo khoảng cách giữa các công việc */
+    border-bottom: 1px solid #ccc; /* Đã thêm đường viền dưới mỗi công việc */
+  }
+  
+  .task {
+    background-color: white;
+  }
+  
+  li > button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    padding: 5px 10px; /* Đã thêm dòng này để tạo padding cho nút */
+  }
+  
+  li > button:hover {
+    background-color: #c0392b;
+  }
+  
+  .react-tabs__tab-list {
+    display: flex;
+    padding: 20px;
+  }
+  
